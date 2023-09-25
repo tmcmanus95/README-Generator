@@ -51,7 +51,6 @@ inquirer
     },
   ])
   .then((data) => {
-    const filename = `${data.title.toLowerCase().split(" ").join("")}.md`;
     const tableOfContents = `## Contents
     1. [Description](#description)<br>
     2. [Usage](#usage)<br>
@@ -77,7 +76,7 @@ inquirer
     const github = `## Questions \n Send me a direct message me at ${data.github}, or email me at ${data.email} for any questions\n\n`;
 
     fs.writeFile(
-      filename,
+      "README.md",
       title +
         badge +
         tableOfContents +
