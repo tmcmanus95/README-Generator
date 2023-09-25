@@ -51,7 +51,7 @@ inquirer
     },
   ])
   .then((data) => {
-    const tableOfContents = `## Contents 1. [Description](#description)<br> 2. [Usage](#usage)<br> 3. [Installation](#installation)<br> 4. [Test](#test)<br> 5. [License](#license)<br> 6. [Questions](#questions)<br>\n`;
+    const tableOfContents = `## Contents <br> 1. [Description](#description)<br> 2. [Usage](#usage)<br> 3. [Installation](#installation)<br> 4. [Test](#test)<br> 5. [License](#license)<br> 6. [Questions](#questions)<br>\n`;
     const title = `## Title \n${data.title}`;
     const description = `## Description \n${data.description}\n\n`;
     const usage = `## Usage  \n${data.usage}\n\n`;
