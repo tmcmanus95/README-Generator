@@ -51,13 +51,7 @@ inquirer
     },
   ])
   .then((data) => {
-    const tableOfContents = `## Contents
-    1. [Description](#description)<br>
-    2. [Usage](#usage)<br>
-    3. [Installation](#installation)<br>
-    4. [Test](#test)<br>
-    5. [License](#license)<br>
-    6. [Questions](#questions)<br>\n`;
+    const tableOfContents = `## Contents 1. [Description](#description)<br> 2. [Usage](#usage)<br> 3. [Installation](#installation)<br> 4. [Test](#test)<br> 5. [License](#license)<br> 6. [Questions](#questions)<br>\n`;
     const title = `## Title \n${data.title}`;
     const description = `## Description \n${data.description}\n\n`;
     const usage = `## Usage  \n${data.usage}\n\n`;
@@ -67,11 +61,11 @@ inquirer
     const license = `## License \n${data.license}\n\n`;
     let badge = "";
     if (data.license === "Apache 2.0") {
-      badge = `\t[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)\n\n`;
+      badge = `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)\n\n`;
     } else if (data.license === "MIT") {
-      badge = `\t[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n\n`;
+      badge = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n\n`;
     } else if (data.license === "BSD") {
-      badge = `\t[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)\n\n`;
+      badge = `[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)\n\n`;
     }
     const github = `## Questions \n Send me a direct message me at ${data.github}, or email me at ${data.email} for any questions\n\n`;
 
