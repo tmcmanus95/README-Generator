@@ -1,25 +1,29 @@
-## Title 
-Sample Project[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## README Generator
 
-## Contents <br> 1. [Description](#description)<br> 2. [Usage](#usage)<br> 3. [Installation](#installation)<br> 4. [Test](#test)<br> 5. [License](#license)<br> 6. [Questions](#questions)<br>
-## Description 
-This is a preview of what the project can do. 
+## Description
 
-## Usage  
-You should navigate to the appropriate working directory, then type in node index.js and press enter. The application will then walk the user through the prompts necessary to create a README file. 
+This application uses JavaScript, Node, and Inquirer to allow the user to create their own README files automatically.
 
-## Installation  
-You can clone it via Github. 
+## Usage
 
-## Contribution Guidelines 
-However they would like!
+To use this app, cd into the correct working directory and then input "node index.js". The user will then be walked through several questions involving the contents of their README file to be. Namely, the title, usage information, installation instructions, contributors, included tests, licenses, and contact information.
 
-## Test 
-There are no tests included.
+## Screenshot of Application
 
-## License 
-MIT
+<img width="1192" alt="Screenshot 2023-09-25 at 12 33 19 AM" src="https://github.com/tmcmanus95/README-Generator/assets/122508345/8892e99b-ddee-4dff-9349-0dbd06c74c27">
 
-## Questions 
- Send me a direct message me at sampleusername, or email me at sampleemail for any questions
+## Walkthrough Video Link
 
+https://drive.google.com/file/d/1DKFGg09QL15WcRHEvnRU011e0aT978FH/view
+
+## License
+
+MIT License
+
+Copyright (c) Thomas McManus - 2023
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
